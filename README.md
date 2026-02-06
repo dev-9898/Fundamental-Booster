@@ -1,34 +1,29 @@
-Interactive Personal Data Collector
+# Interactive Personal Data Collector
 
 A beginner-friendly Python console application that collects personal information from the user and demonstrates core Python fundamentals.
 
-What This Program Does
+## What This Program Does
 
-Uses input() to collect user data
+* Uses `input()` to collect user data
+* Uses `print()` for formatted output
+* Demonstrates data types: `str`, `int`, `float`
+* Applies type casting (`int()`, `float()`)
+* Performs arithmetic operation to calculate birth year
+* Displays each variable’s value, data type, and memory address using `type()` and `id()`
 
-Uses print() for formatted output
+## User Inputs
 
-Demonstrates data types: str, int, float
+* Name
+* Age
+* Height (in meters)
+* Favourite number
 
-Applies type casting (int(), float())
+## How to Run
 
-Performs arithmetic operation to calculate birth year
-
-Displays each variable’s value, data type, and memory address using type() and id()
-
-User Inputs
-
-Name
-
-Age
-
-Height (in meters)
-
-Favourite number
-
-How to Run
+```bash
 python main.py
+```
 
-Learning Purpose
+## Learning Purpose
 
 This project is designed for students to understand Python basics, user interaction, and memory concepts in a simple way.
